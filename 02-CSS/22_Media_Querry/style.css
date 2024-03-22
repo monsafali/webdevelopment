@@ -1,0 +1,24 @@
+h2 {
+    background-color: red;
+}
+@media (max-width: 480px){
+    h2 {background-color: green;}
+} 
+@media (min-width: 700px) {
+    h2 {
+        background-color: yellow;
+    }
+}
+@media (min-width: 200px) and (max-width: 500px) {
+    h2 {
+        background-color: black;
+        color: white;
+    }
+}
+@media (orientation:landscape) {
+    h2{
+        background-color: aqua;
+        color: brown;
+       
+    }
+}

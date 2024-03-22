@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student</title>
+</head>
+<body>
+  <h2>Student Registration form</h2>
+  <form action="/submit">
+    <label for="name">Name</label>
+    <input type="text"  placeholder="First Name" id="name">
+    <input type="text"  placeholder="Last Name" > 
+    <br><br>
+    <label for="email">Email</label>
+    <input type="text" placeholder="name@example.com" id="email">
+    <br><br>
+    Gender
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="others">
+    <label for="others">Others</label>
+    <br><br>
+    <label for="number">Mobile(10 digits)</label>
+    <input type="text" placeholder="Mobile number" id="number">
+    <br><br>
+    <label for="birth">Date of Birth</label>
+    <input type="text" placeholder="21 Dec 2023" id="birth">
+    <br><br>
+    <label for="subject">Subject</label>
+    <input type="text" id="subject">
+    <br><br>
+    Hobbies
+    <input type="checkbox" name="hobies" id="support">
+    <label for id="support">Support</label>
+    <input type="checkbox" name="hobies" id="reading">
+    <label for id="reading">Reading</label>
+    <input type="checkbox" name="hobies" id="music">
+    <label for id="music">music</label>
+    <br><br>
+    <label for="avatar">picture </label>
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+    <br><br>
+    <label for="address">Current address</label>
+    <input type="text"  placeholder="current address" id="address">
+    <br><br>
+    State and City
+    <select name="state" id="state">
+      <option>Select State</option>
+      <option value="pakistan"> pakistan</option>
+      <option value="india"> India</option>
+      <option value="japan"> japan</option>
+      <option value="rusia"> rusia</option>
+      <option value="bangla"> India</option>
+      <option value="india"> India</option>
+    </select>
+    <select name="city" id="city">
+      <option>Select City</option>
+      <option value="pakistan"> pakistan</option>
+      <option value="india"> India</option>
+      <option value="japan"> japan</option>
+      <option value="rusia"> rusia</option>
+      <option value="bangla"> India</option>
+      <option value="india"> India</option>
+    </select>
+  </form>
+  
+</body>
+</html>

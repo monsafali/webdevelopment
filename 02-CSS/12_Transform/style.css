@@ -1,0 +1,40 @@
+section {  margin-top: 100px;}
+
+div { height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #DCF2F1;
+    color: green;
+    padding-top: 10px;
+    font-weight: bold;
+}
+div:nth-of-type(2n) {
+    background-color: mediumaquamarine;
+}
+div:nth-last-of-type(3n){
+    background-color: darkgray;
+}
+/* transform */
+
+/* rotate */
+#one{
+    transform: rotate(90deg);
+}
+
+/* scale */
+#two {
+    transform: scale(0.5);
+}
+
+/* translate mean to change surface */
+#three {
+    transform: translateX(-100px);
+}
+#four {
+    transform: skew(-30deg);
+}
+#five {
+    transform: rotate(30deg) translate(150px);
+}

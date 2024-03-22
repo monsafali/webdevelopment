@@ -1,0 +1,21 @@
+div {
+    height: 300px;
+    width: 500px;
+    background-color: antiquewhite;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: green; */
+    /* we can also write in shorthand: */
+    border: 2px solid red;
+    border-right: 3px dashed blue;
+    margin-bottom: 25px;
+    margin: 10px 20px 30px;
+    padding: 10px 20px 30px;
+
+}
+button { background-color: black;
+    color: white;
+border: 1px solid blue;
+border-radius: 40%;
+padding: 1px 2px 3px 4px;
+}

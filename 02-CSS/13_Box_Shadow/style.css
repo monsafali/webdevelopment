@@ -1,0 +1,12 @@
+div { height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #DCF2F1;
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+box-shadow: 2px 2px 8px black;
+background-image: url(geep.jpg);
+background-size: cover;}

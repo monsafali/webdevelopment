@@ -1,0 +1,50 @@
+/* *********************** element selector*********************************** */
+h1 { color: red;}
+/* *********************** ID selector*********************************** */
+#signup {background-color: red;
+        color: white;}
+#login {background-color: red;
+color: white;}
+/* *********************** desendent selector*********************************** */
+nav ul li a {color: red;}
+p a { background-color: yellow; }
+
+p a { background-color: yellow; }
+
+/* *********************** ajdest sibiling selector*********************************** */
+p + h3 {color:  red;
+text-decoration: underline;}
+
+/* *********************** class selector*********************************** */
+.upvote { background-color: green;}
+
+/* ***********************  child selector*********************************** */
+div > input {background-color: lightblue;}
+/* ***********************  Attribute selector*********************************** */
+input[type="text"] {color: red;}
+input[type="password"] {color: red;}
+input[type] {color: blueviolet;}
+
+/* ***********************  Pseudo classr*********************************** */
+/* hover */
+button:hover{background-color: black;
+        color: white;}
+h3:hover {text-decoration: overline;}
+/* active */
+button:active{background-color: pink;}
+p:active{color:  green;
+font-weight: bold;}
+
+/* :checked */
+input[type="radio"]:checked + label{color: red; font-weight: bold;} 
+
+/* :nth-of-type() */
+div:nth-of-type(1n) {background-color: burlywood;}
+
+/* pseude element */
+h1::first-letter{color: black;}
+#myid::first-line {background-color: red;}
+::selection {color: green; }
+
+h3{background-color: white;
+        color: black;}

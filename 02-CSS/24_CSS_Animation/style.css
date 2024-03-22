@@ -1,0 +1,96 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border: 2px solid black;
+    /* animation: coloranimation;
+    animation:  fontsize; */
+    /* animation: width;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 0s; */
+
+    /* instead of writng above one by one line code we also write it one line */
+    animation: width 6s 3 normal ease-in 0s;
+
+}
+
+
+@keyframes coloranimation {
+    from {background-color: green;}
+    to {background-color: yellow;}
+}
+
+@keyframes fontsize {
+    from {
+        font-size: 10px;
+    }
+    to {
+        font-size: 100px;
+    } 
+}
+
+@keyframes width {
+    from {
+        height: 100px;
+        width: 100px;
+    }
+    to {
+         height: 500px;
+    width: 500px;  
+}
+ }
+
+
+ @keyframes width {
+    from {
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        color: green;
+        font-size: 50px;
+    }
+    to {
+        background-color: yellow;
+        height: 500px;
+        width: 500px;
+        color: black;
+        font-size: 100px;
+    }
+ }
+
+
+ /* we also devided into small block */
+ @keyframes width {
+    0% {
+        background-color: red;
+        height: 50px;
+        width: 50px;
+        color: green;
+        font-size: 10px;
+    }
+    30% {
+        background-color: rgb(44, 22, 22);
+        height: 100px;
+        width: 100px;
+        color: rgb(8, 36, 8);
+        font-size: 20px;
+    }
+    60% {
+        background-color: rgb(128, 64, 181);
+        height: 150px;
+        width: 150px;
+        color: rgb(97, 2, 18);
+        font-size: 40px;
+    }
+    60% {
+        background-color: rgb(3, 244, 216);
+        height: 200px;
+        width: 200px;
+        color: rgb(246, 114, 70);
+        font-size: 50px;
+    }
+ 
+ }
