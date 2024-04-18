@@ -1,0 +1,46 @@
+Templates Literals:
+They are used to add embeded expressions in a string
+
+let a = 23;
+let b = 24;
+console.log(`sum of ${a +b}`)
+
+
+Operators in java Script:
+
+Arithemtic (+,-,-=,/,%,**,*)
+
+
+comparison Operators:
+comparison Operators to compare 2 value >
+
+
+// Comparison for non Number
+each and every number have a uniquve unicode number for example a A have a deffirent unicode number
+
+conditional Statements
+if-else
+nested if-else
+switch
+
+
+else if: can print whenever if condition not true.
+else: can pritner whenever all above condition can false
+
+logical operator:
+
+logical operatos to combine expressions
+Logical And 
+(exp1) && (exp2)
+
+
+Or operator
+when one condition return true it can true it only false when both conditon are false. 
+
+
+logical NOT operator
+
+
+
+
+
