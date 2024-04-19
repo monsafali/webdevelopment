@@ -162,6 +162,14 @@
 //     console.log('pass')
 // }
 
+//
+//let number = 12;
+//if ((number%3 === 0)&& ((number+1 == 15)|| (number-1 ==11))){
+//    console.log('Safe city')
+//} else{
+//    console.log('Unsafa')
+//}
+//
 
 let color = prompt('Enter color name');
 
