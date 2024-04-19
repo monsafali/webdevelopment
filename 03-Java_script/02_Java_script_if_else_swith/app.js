@@ -156,8 +156,27 @@
 
 
 // Logical Not operator 
-let marks = parseInt(prompt('enter your parks'))
+// let marks = parseInt(prompt('enter your parks'))
 
-if ((marks >33 && marks <= 80 )|| !false){
-    console.log('pass')
+// if ((marks >33 && marks <= 80 )|| !false){
+//     console.log('pass')
+// }
+
+
+let color = prompt('Enter color name');
+
+switch(color){
+    case "red":
+        console.log('stop this is danger')
+        break;
+    case "green":
+        console.log('all is right go')
+        break;
+    case "yellow":
+        console.log('slow down')
+        break;
+    default:
+        console.log('something happening wrong')
+
 }
+

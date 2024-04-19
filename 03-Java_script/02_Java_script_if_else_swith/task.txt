@@ -41,6 +41,9 @@ when one condition return true it can true it only false when both conditon are 
 logical NOT operator
 
 
+switch statement:
+
+used when we have some fixed values that we need to compare to
 
 
 
