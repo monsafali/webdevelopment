@@ -1,0 +1,27 @@
+String :
+what is method in genoral:
+it is an action that can be performed on objects .
+
+str.trim()
+trims whitespaces from both end of string & returns a new one
+ToUpperCase()
+ToLowerCase()
+
+string are immutable in js
+No change can be made to strings 
+whenever we do try to make a change, a new string is created and old one remains same. 
+
+Indexof:
+find the specific letter index number
+
+slice of :
+return a part of the original string as a new string
+
+
+Split:
+The split() method divides a string into a list of substrings and returns them as an array
+
+
+substrings
+The string.substring() is an inbuilt function in JavaScript that is used to return the part of the given string from
+the start index to the end index. Indexing start from zero (0).
