@@ -5,3 +5,5 @@ on related data.
 The data in arrays are called elements.
 
 
+Array References
+Address in memory

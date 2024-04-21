@@ -1,13 +1,13 @@
 let Student = ['monsaf','arslan','ayesha','laiba','ahmed']
 
 // if i print the specific index number
-console.log(Student[0]);
+// console.log(Student[0]);
 
 // if I change the specific index number value to another
 Student[1] = "Saddique";
 
 // if i print the whole lenght
-console.log(Student.length);
+// console.log(Student.length);
 
 // if i want to know this specific value store on which index number
 console.log(Student.indexOf('ayesha'));
@@ -53,3 +53,25 @@ let new_array = ['kamal','monsaf','faisal','abdullah'];
 new_array.splice(0,2, "john","david");
 
 
+// Array Reference
+// its means if we change the value to the copied array it also change them into their parent 
+
+// let arr = ['a','b','c','d']
+// let arrcopy = arr
+// arrcopy.push('e')
+// console.log(arr)
+// console.log(arrcopy)
+
+
+
+// Constant arry: 
+// its means when we create arry with name of const we cannot reasing them
+// const arr = [1,2,3,4,5]
+// arr.pop();
+// arr = [6,7,8,9,10]
+
+
+// Nested Array or Multi dimenstional array
+
+let nested = [['monsaf','ali'],['kaleem','akbar'],["mustafa",'kamal']]
+console.log(nested[1][0])
