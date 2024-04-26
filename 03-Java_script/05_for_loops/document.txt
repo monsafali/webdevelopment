@@ -1,0 +1,24 @@
+Loops:
+Used to iterate a piece of code
+
+for loop sentax
+for(initialisation; condition; updation){
+    do somethign
+}
+
+
+for (let i=1; i<= 5 i++){
+    console.log(i);
+}
+
+
+
+infinit Loops
+
+always true when ending condition true
+it is very bad to have in code.
+
+
+Neted for Loop
+loop inside looop
+outer looop and inner loop
