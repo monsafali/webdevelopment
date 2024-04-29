@@ -1,0 +1,13 @@
+Loops:
+Used to iterate a piece of code
+
+
+as condition true while loops play
+
+in while creat variable separately and thes used it on while loops
+while(dondition){
+    //do something
+}
+
+// break key work
+where break come it break that task.
