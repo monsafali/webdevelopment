@@ -1,0 +1,49 @@
+Object Literals
+
+Used to store keyed collections & complex entities.
+
+we can get value form object using ["Type her relivant key"]
+
+
+Add/Update Value In Js
+Change the city to "lahore"
+Add a new property, Gender: "male"
+Chathe the marks to "A"
+
+
+
+
+object of Objects
+storing information of multiple student
+
+
+
+Math Object
+Math.pi
+Math.E
+
+
+Math.abs
+return the value in positive value
+
+Math.pow(give two number)
+return the powr
+
+
+
+
+Math.floor(5)
+return the negitive integer value not float.
+Math.floor(5.78)
+Math.floor(-5.78)
+
+
+
+we have a another method ceil
+Math.ceil(5.1)
+
+
+
+return the random method give the value between 0 and 1. 
+they don't return 1 value always between 0 and 1 not 1
+Math.random()
