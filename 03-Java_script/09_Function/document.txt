@@ -1,0 +1,24 @@
+Funciton In js
+
+to perform a specific task. it is a chunk of code.. we can call that block of code.
+
+function definition(teling js){
+    //do something
+}
+
+
+
+
+funciton with arguments
+function greting(a,b){
+    do something
+}
+
+values we pass to the funciton
+
+
+
+
+Return
+return keywod is used to return some value for the function
+in function after return statement no one statement can run
