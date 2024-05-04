@@ -22,3 +22,32 @@ values we pass to the funciton
 Return
 return keywod is used to return some value for the function
 in function after return statement no one statement can run
+
+
+
+
+Scope:
+Scope determines the accessibility of variables, objects, and function from different parts of the code.
+function Scope
+block Scope
+lexical Scope
+
+Fuction scope:
+Varibles defiend inside a function are not accessible (visible) from outside the funciton
+if inside function don't have varible they extract frou out side (global scope) varialbe and print it
+
+
+
+Block Scope:
+
+varible declared insid a {} block cannot be accessed from outside the block. 
+block scope cannot work in const a let variable
+
+
+
+lexical Scope:
+
+A vasriable defined outside a function can be accessible inside another funtion defined after the variable declaration
+The opposite is NOt TRue? 
+
+
