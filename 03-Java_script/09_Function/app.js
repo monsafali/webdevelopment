@@ -224,5 +224,17 @@ const calculator = {
 }
 
  calculator(add(2,3));
- 
 
+
+// This is the shorthand of declaring function
+const calculator2 = {
+    add(a,b){
+        return a+b
+    },
+    sub(a,b){
+        return a-b
+    },
+    multiply(a,b){
+        return a*b,
+    }
+}
