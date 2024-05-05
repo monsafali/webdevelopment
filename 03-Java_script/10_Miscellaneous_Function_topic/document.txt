@@ -1,0 +1,10 @@
+this keyword
+"This" keyword referers to an object that is executing the current piece of code.
+
+inside object our method can't access parameter. to solve this issue we use this.
+
+
+Try & Catch
+
+The try statement allows you to define a block of code to be tested for errors while it is eing executed.
+The catch statement alows you to define a block of code to be executed, if an error occurs in the try block.
