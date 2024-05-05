@@ -26,19 +26,47 @@ function getavG() {
 
 // Sappose we have error as a not defined. if we don't apply try and cath. code struck here a not run after anything
 
-console.log('hellow')
-console.log('hellow')
-try{
-    console.log(a)
-}catch(error){
-    console.log("variable a doesn't exit")
-    console.log(error)
+// console.log('hellow')
+// console.log('hellow')
+// try{
+//     console.log(a)
+// }catch(error){
+//     console.log("variable a doesn't exit")
+//     console.log(error)
+// }
+// console.log('hello2')
+// console.log('hello2')
+
+
+
+
+
+// This is simple Function
+// function sum (a,b){
+//     return a+b
+// }
+
+
+// This is variable function or global function
+// let sum = function(a,b){
+//     return a+b
+// }
+
+
+// This is arrow funtion
+
+let sum =(a,b)=>{
+    return a+b
 }
-console.log('hello2')
-console.log('hello2')
 
+console.log(sum(23,3))
 
+let cube =(n) => {
+    return n*n*n;
+}
 
-
+let pow = (a,b) => {
+    return a**b
+}
 
 

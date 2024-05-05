@@ -8,3 +8,7 @@ Try & Catch
 
 The try statement allows you to define a block of code to be tested for errors while it is eing executed.
 The catch statement alows you to define a block of code to be executed, if an error occurs in the try block.
+
+
+Arrow Function
+used to in higher order as a parameter arrow function is nameless funtion don't have funiton key word
