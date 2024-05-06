@@ -81,8 +81,37 @@ console.log(mul(2,6))
 
 // Set Timeout
 // waiting for given second for specific Tesk
-console.log('Hi There')
-setTimeout( ()=>{
+// console.log('Hi There')
+// setTimeout( ()=>{
+//     console.log('welcome to a big game');
+// },4000);
+// console.log('at apna college')
+
+
+
+// Set Interval
+
+// waiting for given second for specific Tesk
+
+let id = setInterval( ()=>{
     console.log('welcome to a big game');
-},4000);
-console.log('at apna college')
+},2000);
+
+
+let id2 = setInterval( ()=>{
+    console.log('Only your work hard make you unique');
+},2000);
+
+
+// console.log(id);
+// console.log(id2);
+
+// you can stop setinterval function to first store it into one variable then that clear that variable like this: clearinterval(varible_name)
+
+
+
+
+
+
+
+
