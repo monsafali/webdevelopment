@@ -12,3 +12,10 @@ The catch statement alows you to define a block of code to be executed, if an er
 
 Arrow Function
 used to in higher order as a parameter arrow function is nameless funtion don't have funiton key word
+
+Arrow function implicit return
+
+
+
+Set Timeout:
+setTimeout(funciton, timeout)

@@ -70,3 +70,19 @@ let pow = (a,b) => {
 }
 
 
+//  Implicit return
+
+const mul = (a,b)=> (
+    a *b
+)
+console.log(mul(2,6))
+
+
+
+// Set Timeout
+// waiting for given second for specific Tesk
+console.log('Hi There')
+setTimeout( ()=>{
+    console.log('welcome to a big game');
+},4000);
+console.log('at apna college')
