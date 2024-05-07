@@ -1,0 +1,23 @@
+Array Methods:
+
+forEach
+print the whole list like for loop
+
+map
+it is very close to foreach similar
+
+filter
+
+every
+Returns true if every element of array gives true for some funciton, Else returns false.
+every method return true when all of array item true
+
+some
+some method is very similar to every method
+
+reduce
+Reduces the array to a single value.
+if we have  a too many value in arr. it return us a single value. 
+
+
+
