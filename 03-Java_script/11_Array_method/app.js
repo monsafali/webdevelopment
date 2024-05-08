@@ -117,8 +117,51 @@ let maximum = arr.reduce((min, max)=>{
 
 
 
-[20,40,30,20,10].every((el) => el%10==0);
+// [20,40,30,20,10].every((el) => el%10==0);
 
 
 
 
+
+// Default Value
+
+function sum(a,b =2, c=2){
+    return a+b+c;
+}
+
+sum(2,4);
+sum(5);
+
+
+
+
+// spread
+// let List = [3,1,4,345,5,345,4,34,3,4];
+// let minimum = Math.min(...List)
+// let Maximum = Math.max(...List)
+// console.log(minimum)
+// console.log(Maximum)
+
+// let string = 'welcome to a big game';
+// console.log(...string);
+
+
+
+
+
+
+// how to used spread in object literals
+let data = {
+    name : "monsaf Ali",
+    Email: "monsafali272@gmail.com",
+    contact: +923116940272,
+    password: "abcd"
+}
+
+let datacopy = {...data, Id: 124}
+
+
+let array1 = [2,3,3,23,23,3,3223];
+let array2 = [...array1];
+let arr_to_object = {...array2};
+let object3 = {...'Monsaf'}

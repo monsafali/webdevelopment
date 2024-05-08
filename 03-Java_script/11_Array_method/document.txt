@@ -20,4 +20,14 @@ Reduces the array to a single value.
 if we have  a too many value in arr. it return us a single value. 
 
 
+Default Parameters
+Giving a default value ot the arguments
+
+
+Spread:
+Expand as iterable into multiple values 
+
+
+How to used spread in object literals
+
 
