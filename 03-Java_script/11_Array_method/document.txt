@@ -30,4 +30,16 @@ Expand as iterable into multiple values
 
 How to used spread in object literals
 
+Rest:
+Allows a funciton to take an indefinite number of arguments and bundle them in an array
+
+
+
+Destructuring
+Storing values of array into multiple variable
+
+Destructuring simple means to break
+
+
+
 

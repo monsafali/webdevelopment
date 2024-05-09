@@ -98,22 +98,27 @@
 
 
 // find the maximum number from array
-let arr = [2,3,3,23,23,43,3,34];
-let max = -1;
-for(let i=0; i<arr.length; i++){
-    if(max < arr[i]){
-        max = arr[i];
-    }
-}
+// let arr = [2,3,3,23,23,43,3,34];
+// let max = -1;
+// for(let i=0; i<arr.length; i++){
+//     if(max < arr[i]){
+//         max = arr[i];
+//     }
+// }
 // console.log(max);
+
+
+
 // using reduced method
-let maximum = arr.reduce((min, max)=>{
-    if(min>max){
-        return min;
-    }else {
-        return max;
-    }          
-})
+
+
+// let maximum = arr.reduce((min, max)=>{
+//     if(min>max){
+//         return min;
+//     }else {
+//         return max;
+//     }          
+// })
 
 
 
@@ -125,12 +130,12 @@ let maximum = arr.reduce((min, max)=>{
 
 // Default Value
 
-function sum(a,b =2, c=2){
-    return a+b+c;
-}
+// function sum(a,b =2, c=2){
+//     return a+b+c;
+// }
 
-sum(2,4);
-sum(5);
+// sum(2,4);
+// sum(5);
 
 
 
@@ -151,17 +156,77 @@ sum(5);
 
 
 // how to used spread in object literals
-let data = {
-    name : "monsaf Ali",
-    Email: "monsafali272@gmail.com",
-    contact: +923116940272,
-    password: "abcd"
+// let data = {
+//     name : "monsaf Ali",
+//     Email: "monsafali272@gmail.com",
+//     contact: +923116940272,
+//     password: "abcd"
+// }
+
+// let datacopy = {...data, Id: 124}
+
+
+// let array1 = [2,3,3,23,23,3,3223];
+// let array2 = [...array1];
+// let arr_to_object = {...array2};
+// let object3 = {...'Monsaf'}
+
+
+// RESt
+// function sumvaue (...args){
+//     for(let i=0; i<args.length; i++){
+//         console.log('you give us:',args[i])
+//     }
+// }
+
+// function min (a,b,c,d){
+//     console.log(arguments);
+//     console.log(arguments.length);
+//     arguments.push(1);
+// }
+
+
+// function sum(...argu){
+//     return argu.reduce((sum, el)=> sum + el);
+// }
+
+
+
+
+
+
+
+// Destructuring array
+
+let names = ["Tonnay","Bruce","Steve","Peter","kamal","Monsaf","ali"];
+// let winner = names[0];
+// let runnerup = names[1];
+// let secondrunnerup = names[2];
+
+
+// we have  method to write above code in simple way
+
+let [ winner, runnerup, ...others] = names;
+
+// Destructiong object
+
+
+const student = {
+    Name: "Monsaf_ali",
+    Age : 23,
+    class: 14,
+    Subject : ["computer","urdue","English","Pakstudie"],
+    username : "kamal2211",
+    password: "abcd",
+//    city: "lahore"
 }
 
-let datacopy = {...data, Id: 124}
+// let username = student.username;
+// let password = student.password;
+// above method is not best practise we used it below code
 
 
-let array1 = [2,3,3,23,23,3,3223];
-let array2 = [...array1];
-let arr_to_object = {...array2};
-let object3 = {...'Monsaf'}
+
+// Suppose we want to creat new key name than we add value but it perform as a key when we  call. 
+// incase we cannot give any city information we can add it to default whenever not define city it print by defaulty
+let {username: user, password: secret, city: place="Fortabbas"} = student;
