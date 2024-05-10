@@ -1,0 +1,29 @@
+Dom
+Document object Models
+The DOM represents a Document with a logical tree.
+IT allows u to manipulatelchange webpage content (HTML elements)
+
+
+Selecting elements;
+
+getElements byID
+return the elements as an object or null (if not found)
+Document.getElementsbyId(id_name)
+
+
+
+getElements byclassname
+return the element as an HTML collection or empty collection (if not found)
+Document.getElementsbyClassName(classname)
+
+
+getElementsByTagName
+returns the elements as an HTML collection or empty collection (if not found)
+
+
+
+Querry Selects
+Allow us to use any css selector
+Document.Querryselector('p');
+Document.Querryselector('#myID')
+Document.Querryselector('.myclass')
