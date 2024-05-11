@@ -27,3 +27,14 @@ Allow us to use any css selector
 Document.Querryselector('p');
 Document.Querryselector('#myID')
 Document.Querryselector('.myclass')
+
+
+
+
+Manipulating Attributes:
+obj.getAttribute(attr)
+obj.setAttribute(attr, val)
+
+
+Manipulating style :
+obj.style:
