@@ -21,3 +21,14 @@
 #mainImg{
     width: 35%;
 }
+
+
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.color {
+    text-decoration: underline purple wavy;
+}

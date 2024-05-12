@@ -38,3 +38,39 @@ obj.setAttribute(attr, val)
 
 Manipulating style :
 obj.style:
+
+
+
+usingclasslist:
+obj.classlist
+
+classlist.add(to add a new class)
+classlist.remove(to romve class)
+classlist.contains(to check if class exit or not)
+classlist.toggle() to toggle between ad & remove
+
+
+
+Navigation
+parentElement
+children
+previousElementSibling /nextElementSibling
+
+
+
+
+Adding element;
+Document.createElement('p')
+
+appendChild(element)
+append(element)
+prepend(element)
+insertAdjacent(Where, element)
+
+
+
+
+Remeving Element
+
+removeChild (element)
+remove(Element);
