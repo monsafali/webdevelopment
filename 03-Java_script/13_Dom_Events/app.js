@@ -76,10 +76,10 @@
 
 // This in Event Listeners
 
-let btn = document.querySelector("button");
-let p = document.querySelector('p');
-let h1 = document.querySelector('h1');
-let h3 = document.querySelector('h3');
+// let btn = document.querySelector("button");
+// let p = document.querySelector('p');
+// let h1 = document.querySelector('h1');
+// let h3 = document.querySelector('h3');
 
 // btn.addEventListener("click",function(){
 //     console.dir(this.innerText)
@@ -111,16 +111,85 @@ let h3 = document.querySelector('h3');
 
 // but above method is not soo good. we reduce code. look like small.so we optimized
 
-btn.addEventListener("click",changeColor)
-p.addEventListener("click",changeColor)
-h1.addEventListener("click",changeColor)
-h3.addEventListener("click",changeColor)
+// btn.addEventListener("click",changeColor)
+// p.addEventListener("click",changeColor)
+// h1.addEventListener("click",changeColor)
+// h3.addEventListener("click",changeColor)
 
-function changeColor(){
-    console.dir(this.innerText)
-    this.style.backgroundColor = "purple"
-    this.style.color = "white"   
-}
+// function changeColor(){
+//     console.dir(this.innerText)
+//     this.style.backgroundColor = "purple"
+//     this.style.color = "white"   
+// }
 
 
 
+
+
+
+// <!-- keyboard event -->
+// let inp = document.querySelector('input')
+// inp.addEventListener('keyup', function(event){ //keydown keyup keypresss
+//     console.log("key is=",event.key)
+//     console.log("code is =",event.code)
+//     console.log('key was pressed')
+// })
+
+
+// let inp = document.querySelector('input')
+// inp.addEventListener('keyup', function(event){ //Arrup ArrowDown, ArrowLeft, ArrowRight
+//     console.log("code is =",event.code)
+    // if(event.code == "ArrowUp"){
+    //     console.log('character moves to forward')
+    // } else if (event.code == "ArrowDown"){
+    //     console.log('Character moves to backward')
+    // } else if (event.code == "ArrowLef"){
+    //     console.log('Character moves to Left')
+    // } else if (event.code == "ArrowRight"){
+    //     console.log('Character moves to Regght')
+    // } else{
+    //     console.log('wrong request')
+    // }
+
+//     if(event.code == "KeyU"){
+//         console.log('character moves to forward')
+//     } else if (event.code == "KeyD"){
+//         console.log('Character moves to backward')
+//     } else if (event.code == "KeyL"){
+//         console.log('Character moves to Left')
+//     } else if (event.code == "KeyR"){
+//         console.log('Character moves to Regght')
+//     } else{
+//         console.log('wrong request')
+//     }
+// })
+
+
+
+
+
+
+
+// let btn =document.querySelector('button');
+// btn.addEventListener('click',function(event){
+//     console.log(event)
+//     console.log('button was clicked')
+// })
+
+// btn.addEventListener('dblclick',function(event){
+//     console.log(event)
+//     console.log('button was clicked')
+// })
+
+
+
+
+
+// Form Events
+
+let form = document.querySelector('form')
+form.addEventListener('submit', function(event){
+    event.preventDefault();
+    alert('form submited successfuly');
+    console.log('submit successfully') 
+});
