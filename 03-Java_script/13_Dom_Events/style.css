@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    pad: 0;
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+.div {
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+     box-sizing: border-box;
+     overflow: hidden;
+     margin:  auto;
+     margin-top: 20px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+}
