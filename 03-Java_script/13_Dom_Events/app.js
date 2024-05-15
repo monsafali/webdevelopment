@@ -187,9 +187,69 @@
 
 // Form Events
 
-let form = document.querySelector('form')
-form.addEventListener('submit', function(event){
-    event.preventDefault();
-    alert('form submited successfuly');
-    console.log('submit successfully') 
-});
+// let form = document.querySelector('form')
+// form.addEventListener('submit', function(event){
+//     event.preventDefault();
+//     // alert('form submited successfuly');
+//     // console.log('submit successfully')  
+//     console.dir(form)
+// });
+
+
+
+// extract data from form
+
+
+// let form = document.querySelector('form')
+// form.addEventListener('submit', function(event){
+//     event.preventDefault();
+
+//     let user = this.elements[0]; //we can use this because in addeventlistern this value of their parent value 
+//     let pass = this.elements[1]; ///form.element[1]
+//     console.log(pass.value);
+//     console.log(user.value);
+    
+
+
+//     alert(`Hi ${user.value}, your password is set to ${pass.value}`)
+// });
+
+
+
+
+
+
+
+// More Events
+
+
+// let form = document.querySelector('form')
+// form.addEventListener('submit', function(event){
+//     event.preventDefault();
+// });
+//     let user = document.querySelector('#user')
+//     user.addEventListener('change',function(){
+//     console.log('input changed');
+//     console.log('final value =', this.value)
+// })
+
+
+// user.addEventListener('input',function(){
+// console.log('input event');
+// console.log('final value =', this.value)
+// })
+
+
+
+
+
+
+let input = document.querySelector('#user')
+let para = document.querySelector('p')
+input.addEventListener('input', function(){
+    console.log(input.value)  
+    para.innerText = input.value;
+    
+})
+
+

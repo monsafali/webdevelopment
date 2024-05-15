@@ -25,3 +25,17 @@ When 'this' is used in a callback of event handler of something, it refers to th
 Keyboard Events
 
 
+form
+
+extracting data from form.
+
+More Events
+
+Change Events
+The Change event occurs when the value of an element has been changed (only workds on <inputs>, <textarea> and <select> element)
+
+Input event:
+The Input event fires when the value of an <inputs>, <select> or <textarea> element has been changed,
+
+
+
