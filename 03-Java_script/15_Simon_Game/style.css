@@ -1,0 +1,59 @@
+h3, h2 {
+    text-align: center;
+}
+
+
+.main {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.red {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 5px solid black;
+    background-color: red;
+}
+.blu {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 5px solid black;
+    background-color: blue;
+}
+.yellow {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 5px solid black;
+    background-color: yellow;
+}
+.green {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 5px solid black;
+    background-color: green;
+}
+
+.flash {
+    background-color: white;
+}
+.userflash {
+    background-color: green;
+}
