@@ -1,0 +1,11 @@
+Async funciton:
+
+
+we used throw keyword when we catch some random error
+
+
+Await Keyword:
+pauses the execution of its surrounding async funciton until the promise is settled 
+(resolved or rejected)
+
+we only used await keyword whenever over function is async postition 
