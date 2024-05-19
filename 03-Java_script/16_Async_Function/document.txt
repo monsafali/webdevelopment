@@ -1,3 +1,22 @@
+Sync in JS
+
+Synchronous
+Synchronous means the code runs in a particular sequence of instructions given in the program.
+Each instruction waits for the previous instruction to complete its execution.
+
+
+Asynchronous:
+ Due to synchronous programing, sometimes imp instructions get blocked due to some previous instruction, which
+causes a dealy in the Ul. Asynchronous code execution to exectue next instruction imeediately and doens't block 
+the flows 
+
+
+call back:
+A callback is a function passed as an argument to another function.
+
+
+
+
 Async funciton:
 
 
