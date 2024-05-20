@@ -20,10 +20,7 @@ Promise is for “eventual” completion of task. It is an object in JS
 it is solution to call backhell.
 
 
-
-Async funciton:
-
-
+throw keyword:
 we used throw keyword when we catch some random error
 
 
@@ -31,4 +28,16 @@ Await Keyword:
 pauses the execution of its surrounding async funciton until the promise is settled 
 (resolved or rejected)
 
+wherever used ansync keywork it should should be return promise compulsorly. 
+
 we only used await keyword whenever over function is async postition 
+
+
+Promise Chaing
+whenever settimouet function used the main function declared async functioon
+
+
+
+
+IIFE: Immediately invoked Function Expression
+IIFE is a function that is called immediately as soon as it is defined.
