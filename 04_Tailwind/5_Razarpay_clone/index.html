@@ -15,6 +15,17 @@
             padding-top: 12rem;
             padding-bottom: 12rem;
         }
+        .moveImage{
+            animation: 10s infinite linear movercopnay;
+        }
+        @keyframes movercopnay {
+            0%{
+                top: 0;
+            }
+            100%{
+                top: -50%;
+            }
+        }
     </style>
 
 </head>
@@ -915,7 +926,7 @@
 <!-- Core Features -->
 <section class ="w-full bg-[url(/Images/core-features-sectionBg.svg)] 
 bg-no-repeat bg-cover bg-center mt-14 relative  corefeaturesection" >
-<div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+<div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 ">
     <h2 class="font-mullish font-bold text-2xl text-center text-white">Feature</h2>
     <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
     <p class="font-mullish text-center max-w-[450px] text-white mx-auto">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
@@ -976,6 +987,91 @@ bg-no-repeat bg-cover bg-center mt-14 relative  corefeaturesection" >
 
 </section>
 
+<!-- join Razorpay section -->
+<section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
+<div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 flex flex-row">
+    <!-- Left Part -->
+    <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+        <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h2>
+        <div class="w-6 h-1 bg-greenLight  my-4 mb-10"></div>
+        <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. 
+            Become one of us by joining thousands of our happy users and simplify the online payment experience 
+            for your customers</p>
+        <p class="font-mullish mt-6 opacity-80">
+            Focus on your business while we handle the complexities of payments for you.
+        </p>
+    </div>
+
+    <!-- right part -->
+    <div class="h-[500px] w-[500px] relative overflow-y-hidden ">
+        <div style="background:  linear-gradient(180deg, #f4f8ff, #fff0);"
+        class="absolute w-full h-[150px] top-0 z-50"></div>
+        <img src="Images/comanies.png" alt="" 
+        class="absolute h-auto object-cover moveImage">
+        <div style="background:  linear-gradient(0deg, #f4f8ff, #fff0);"
+        class="absolute w-full h-[150px] bottom-0 z-50"></div>
+    </div>
+
+
+</div>
+
+</section>
+
+
+<!-- Testimonial Section -->
+<section class="relative ">
+    <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
+        <img src="Images/feature-section1-dottedrows.png" alt=""
+        class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
+        <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead text-center
+        ">An Experience <br> Love to Talkl About</h2>
+        <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
+   
+        <!-- Left button -->
+        <button>
+            <div>
+                <i
+                    data-feather="chevron-right"
+                    class="stroke-[5px] w-6 h-6 md:w-10 text-gray-400">
+                </i>
+            </div>
+        </button>
+
+
+        <!-- Right button -->
+        <button>
+            <div>
+                <i
+                data-feather="chevron-right"
+                class="stroke-[5px] w-6 h-6 md:w-10 text-gray-400">
+            </i>
+            </div>
+        </button>
+        <!-- main Contenct -->
+        <div>
+            <!-- left image -->
+            <img src="Images/testimonial.jpg" alt="">
+            <!-- right part -->
+            <div>
+                <img src="Images/quotes.svg" alt="">
+                <p>Readymade Closed Wallet Solution For Quick Refunds</p>
+                <a href="">Learn More</a>
+                <h3>Lorem Ipsum</h3>
+                <p>CEO, XYZ Engineering Company</p>
+                <img src="Images/fake-company-logo.png" alt="">
+            </div>
+        </div>
+
+        <!-- 5 dotted div -->
+        <div>
+            <div></div>
+        </div>
+
+
+
+
+    </div>
+</section>
 
     <script>
         feather.replace()
