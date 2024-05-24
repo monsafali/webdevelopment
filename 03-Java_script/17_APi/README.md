@@ -45,3 +45,13 @@ Example
 500 meaning         Internal Server code
 and many more
 
+
+
+
+http Headers
+header, value
+
+
+
+Our First REquest
+using Fetch(url)
