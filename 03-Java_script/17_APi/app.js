@@ -41,18 +41,72 @@
 
 
 // api with async await funciton
-let url = "https://catfact.ninja/fact";
-async function getFacts() {
- try{
-  let res = await fetch(url);
-  let data = await res.json()
-  console.log(data.fact)
+// let url = "https://catfact.ninja/fact";
+// async function getFacts() {
+//  try{
+//   let res = await fetch(url);
+//   let data = await res.json()
+//   console.log(data.fact)
 
 
-  let res2 = await fetch(url);
-  let data2 = await res2.json()
-  console.log(data2.fact)
- } catch(err){
-  console.log('Something Hapenning wrong with',err)
- }
-}
+//   let res2 = await fetch(url);
+//   let data2 = await res2.json()
+//   console.log(data2.fact)
+//  } catch(err){
+//   console.log('Something Hapenning wrong with',err)
+//  }
+// }
+
+
+
+// Api Study from Youtube
+
+// const URL = "https://cat-fact.herokuapp.com"
+
+// const getFacts = async () => {
+//     console.log("getting data ....")
+//     let resp =  await fetch(URL);
+//     console.log(resp);
+//    let data = await resp.json();
+//    console.log(data)
+// };
+
+
+const URL = "https://cat-fact.herokuapp.com/facts"; // Correct endpoint for facts
+let facts_para = document.querySelector("#fact");
+let btn = document.querySelector("#btn");
+
+
+const getFacts = async () => {
+    try {
+        console.log("getting data ....");
+        let resp = await fetch(URL);
+        if (!resp.ok) {
+            throw new Error(`HTTP error! status: ${resp.status}`);
+        }
+        console.log(resp);
+        let data = await resp.json();
+        console.log(data[0].text);
+        facts_para.innerText = data[1].text;
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+};
+
+
+// using Promise Chaining
+
+// function getFacts(){
+//     fetch(URL)
+//     .then((response)=>{
+//         return response.json();
+//     })
+//     .then((data)=>{
+//         console.log(data)
+//         facts_para.innerText = data[1].text;
+//     })
+// }
+
+btn.addEventListener("click", getFacts);
+
+// getFacts(); // Invoke the function to test

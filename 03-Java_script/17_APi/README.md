@@ -55,3 +55,12 @@ header, value
 
 Our First REquest
 using Fetch(url)
+
+
+Fetch API:
+The Fetch Api provides and interface for fetching (Sending/receiving) resources.
+ It uses Request and REsponse objects.
+  The fetch() method is used to fetch a resource (Data).
+   
+
+   let  promise = feth(url, [option])
